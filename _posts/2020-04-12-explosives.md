@@ -86,7 +86,7 @@ The explosive is spawned after the appropriate objects (i.e chemicals) have been
                             1. Check if count is equal to the total number of pads in the game
                                 1. If true, spawn the explosive at some position in the game (ex. a target platform)
 
-![Spawning of the explosive]({{ /portfolio/assets/images/eSpawnExplosive.png | absolute_url }})
+![Spawning of the explosive](https://mantaevvfl.github.io/portfolio/assets/images/eSpawnExplosive.png)
 
 **DEMO**
 
