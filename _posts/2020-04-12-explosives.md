@@ -26,7 +26,7 @@ An object is selected when the player hovers the mouse cursor over an object and
             2. If the player clicks on the mouse and there is no other object selected
                 1. Select the object
 
-![Selecting an object](/assets/images/ePlayerObjSelection.png)
+![Selecting an object]({{ "/assets/images/ePlayerObjSelection.png" | relative_url }})
 
 ***Object Manipulation***
 
@@ -65,7 +65,7 @@ Scale
 
         5. Update the seleced object's local scale with the new scale
 
-![Manipulating an object](/assets/images/ePlayerObjManipulation.png)
+![Manipulating an object]({{ "/assets/images/ePlayerObjManipulation.png" | relative_url }})
 
 ***Spawning of the Explosive***
 
@@ -86,7 +86,7 @@ The explosive is spawned after the appropriate objects (i.e chemicals) have been
                             1. Check if count is equal to the total number of pads in the game
                                 1. If true, spawn the explosive at some position in the game (ex. a target platform)
 
-![Spawning of the explosive](/assets/images/eSpawnExplosive.png)
+![Spawning of the explosive]({{ "/assets/images/eSpawnExplosive.png" | relative_url }})
 
 **DEMO**
 

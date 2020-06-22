@@ -42,7 +42,7 @@ The group of civilians follow wherever the player goes at some offset position.
     1. If the distance between a civilian's position and its offset position from the player is greater than 0 (i.e if the player has moved)
         1. Update the civilian's position each frame by linear interpolating between its current and desired position
 
-![Player movement](/assets/gifs/cPlayerMovement.gif)
+![Player movement]({{ "/assets/gifs/cPlayerMovement.gif" | relative_url }})
 
 ***Platform Selection***
 
@@ -58,7 +58,7 @@ Platforms are selected randomly and then become either infected or disinfected d
         2. If the timer is greater than the maximum time a platform can be selected for
             1. Change the state of the platform from selected to unselected (but do not change its color)
 
-![Platform selection](/assets/gifs/cPlatformSelection.gif)
+![Platform selection]({{ "/assets/gifs/cPlatformSelection.gif" | relative_url }})
 
 ***Collision Detection***
 
@@ -75,7 +75,7 @@ A collision occurs if any of the civilians remain on a platform that has become 
     2. Call the collision function for each civilian after a platform's selection time has exceeded (i.e platform has become fully infected)
         1. If a collision was detected between a civilian and the platform, remove that civilian from the game (ex. I used the remove function in Processing)
 
-![Collision detection](/assets/gifs/cCollisionDetection.gif)
+![Collision detection]({{ "/assets/gifs/cCollisionDetection.gif" | relative_url }})
 
 **DEMO**
 
