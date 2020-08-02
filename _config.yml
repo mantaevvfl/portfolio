@@ -23,8 +23,8 @@ author: Ali Mantaev
 email: mantaev.vfl@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog 
-url: "https://mantaevvfl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/portfolio" # the subpath of your site, e.g. /portfolio 
+url: "https://mantaevvfl.github.io" # the base hostname & protocol for your site, e.g. "https://mantaevvfl.github.io"
 github_username: mantaevvfl
 hackerrank_username: mantaev_vfl
 linkedin_username: ali-mantaev-2a5067178
